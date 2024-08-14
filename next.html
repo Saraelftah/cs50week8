@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://getbootstrap.com/docs/5.2/assets/css/docs.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+    <title>Final</title>
+    <link href="styles.css" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="favicon.jpg">
+    <style>
+        body{
+            background-image: url(pic/bc3.jpg);
+            background-size: 100%;  
+        }
+        .next{
+            margin-top: 150px;
+        }
+        .back{
+            display: flex;
+            justify-content: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="next">
+        <h1>welcome to the team</h1>
+        <h2>We hope to enjoy with us</h2>
+        <p>your team first class starts on Monday 11:00 Am</p>
+        <p>Don't be late!</p>
+    </div>
+
+    <div class="back">
+        <button onclick="backBtn()" type="button" class="btn btn-outline-success">Home page</button> 
+    </div>
+    <script>
+        function backBtn(){
+            location.href = "index.html";
+            return false;
+        }
+    </script>
+
+   
+    
+    
+</body>
+</html>
